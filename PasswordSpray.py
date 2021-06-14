@@ -18,6 +18,7 @@ badpassword ="SomethingShitty"
 
 
 #incorporated whole post request but commented out required and converted to byte vs string
+#you can grab the rest from the console but this one is kept to show how to convert from string to byte
 headers={
     b"Cookie: MoodleSession=tch5otu6blsu15i3s24ig2r8aq",
     }
